@@ -44,5 +44,5 @@
 
 	var_dump(openssl_x509_parse($x509));
 	while($error = openssl_error_string()){
-		#var_dump($error);
+		var_dump($error);
 	}
